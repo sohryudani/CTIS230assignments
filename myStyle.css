@@ -1,11 +1,31 @@
 body {  
-    color:darkslategray  
+    color:darkslategray;
+    background-color:white;
+    font-family:sans-serif;
+}
+
+h1 {
+    background-color:lightsteelblue;
+    width:fit-content;
+    font-family:'Trebuchet MS', Tahoma, sans-serif;
 }
 
 h2 {
-    color:rosybrown
+    color:rosybrown;
+    background-color:lavenderblush;
+    font-weight:700;
+    font-family:'Trebuchet MS', Tahoma, sans-serif;
 }
 
 h3 {
-    color:lightslategray
+    color:lightslategray;
+}
+
+strong {
+    background-color:seashell;
+    font-style:italic;
+}
+
+a {
+    font-size:1.25em;
 }
