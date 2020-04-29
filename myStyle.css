@@ -29,3 +29,15 @@ strong {
 a {
     font-size:1.25em;
 }
+
+a:link {
+    color:rosybrown;
+}
+
+a:hover {
+    color:rgb(153, 116, 116);
+}
+
+a:visited {
+    color:darkslategray;
+}
