@@ -38,7 +38,7 @@ p strong {
 }
 
 table.infoBox {
-    width:600px;
+    width:30%;
     text-align:left;
     border: 1px solid white;
     background-color:rgb(65, 39, 91);
@@ -83,7 +83,7 @@ div.headcontent {
     color:rgb(173, 193, 201);
     background-color:rgb(65, 39, 91);
     text-align:center;
-    font-size:1.5em;
+    font-size:1.25em;
     width:30%;
     padding-bottom:.5em;
     padding-top:.5em;
