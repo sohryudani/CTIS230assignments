@@ -1,18 +1,17 @@
 body {  
-    color:darkslategray;
-    background-color:white;
+    color:white;
+    background-color:rgb(11, 7, 30);
     font-family:sans-serif;
 }
 
-h1 {
-    background-color:lightsteelblue;
+h1, h2 {
+    color:rgb(232, 135, 176);
+    background-color:rgb(143, 0, 16);
     width:fit-content;
     font-family:'Trebuchet MS', Tahoma, sans-serif;
 }
 
 h2 {
-    color:rosybrown;
-    background-color:lavenderblush;
     font-weight:700;
     font-family:'Trebuchet MS', Tahoma, sans-serif;
 }
@@ -21,9 +20,23 @@ h3 {
     color:lightslategray;
 }
 
-strong {
-    background-color:seashell;
+p strong {
+    color:rgb(178, 249, 116);
+    background-color:rgb(65, 39, 91);
     font-style:italic;
+}
+
+ul#itemList {
+    font-style: italic;
+    font-size:1.25em;
+}
+
+img#luigiImg {
+    width:25%;
+}
+
+ul.sentenceList {
+    line-height:1.4em;
 }
 
 a {
