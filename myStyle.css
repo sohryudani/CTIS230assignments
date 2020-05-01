@@ -28,7 +28,6 @@ h2 {
 
 h3 {
     color:lightslategray;
-    border: 1px solid white;
 }
 
 p strong {
@@ -38,16 +37,23 @@ p strong {
     border: 1px solid white;
 }
 
+table.infoBox {
+    width:25%;
+    text-align:left;
+    border: 1px solid white;
+    background-color:rgb(65, 39, 91);
+    float:right;
+}
+
 ul#itemList {
     font-style: italic;
     font-size:1.25em;
     margin-bottom:1.5em;
-    border: 1px solid white;
 }
 
 img#luigiImg {
     border:1px solid white;
-    width:20%;
+    width:185px;
     margin-right:1.8em;
     margin-bottom:1.8em;
     float:left;
@@ -60,16 +66,44 @@ div#mainDiv {
 
 ul.sentenceList {
     line-height:1.4em;
-    border: 1px solid white;
+}
+
+div.header {  
+    display:flex;  
+    align-items: center;
+    justify-content: space-between;
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+div.headcontent {
+    color:rgb(173, 193, 201);
+    background-color:rgb(65, 39, 91);
+    text-align:center;
+    font-size:1.5em;
+    width:30%;
+    padding-bottom:.5em;
+    padding-top:.5em;
+    border: 2px dotted white;
+}
+
+div.footcontent {
+    font-size:1.5em;
+    width:30%;
 }
 
 a {
     padding:20px;
     font-size:1.25em;
-    border: 1px solid white;
 }
 
 a#email {
+    padding:0px;
+}
+
+a.buttonL {
     padding:0px;
 }
 
