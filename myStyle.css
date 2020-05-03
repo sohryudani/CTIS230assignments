@@ -15,6 +15,8 @@ h1, h2 {
     padding-left:10px;
     padding-right:10px;
     border: 1px solid white;
+    margin-left:40px;
+    margin-right:40px;
 }
 
 h1 {
@@ -23,11 +25,19 @@ h1 {
 }
 
 h2 {
+    clear:left;
     font-weight:700;
 }
 
 h3 {
     color:lightslategray;
+    margin-left:40px;
+    margin-right:40px;
+}
+
+p {
+    margin-left:60px;
+    margin-right:60px;
 }
 
 p strong {
@@ -37,13 +47,26 @@ p strong {
     border: 1px solid white;
 }
 
+table {
+    width:100%-120px;
+    margin-left:60px;
+    margin-right:60px;
+}
+
 table.infoBox {
-    width:30%;
+    width:250px;
     text-align:left;
     border: 1px solid white;
     background-color:rgb(65, 39, 91);
     float:right;
     margin-left:1.8em;
+    margin-bottom:1.8em;
+    margin-right:40px
+}
+
+ul {
+    margin-left:40px;
+    margin-right:40px;
 }
 
 ul#itemList {
@@ -55,13 +78,13 @@ ul#itemList {
 img#luigiImg {
     border:1px solid white;
     width:185px;
+    margin-left:40px;
     margin-right:1.8em;
     margin-bottom:1.8em;
     float:left;
 }
 
 div#mainDiv {
-    width:600px;
     line-height:1.25em;
 }
 
