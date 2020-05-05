@@ -2,6 +2,7 @@
 myitem = document.getElementById("firsttest");
 thebutton = document.getElementById("thebutton");  
 thebutton2 = document.getElementById("thebutton2");
+thebutton3 = document.getElementById("thebutton3");
 otheritem = document.getElementById("fluteofages");
 otheritem2 = document.getElementById("silvereye");
 otheritem3 = document.getElementById("diddykong");
@@ -12,6 +13,7 @@ myitem.addEventListener("click", onClick);
 myitem.addEventListener("mouseout", onMouseOut);
 thebutton.addEventListener("click", onButtonClick);
 thebutton2.addEventListener("click", onButtonClick2);
+thebutton3.addEventListener("click", onButtonClick3);
 textentry.addEventListener("change", onChange);
 
 //Is run whenever myitem is clicked
@@ -36,8 +38,15 @@ function onButtonClick2() {
     otheritem2.style.width = "fit-content";
 }
 
+function onButtonClick3() {
+    otheritem3.innerHTML = "<strong>Diddy Kong 65</strong>"
+    otheritem2.style.backgroundColor = "";
+    otheritem.style.backgroundColor = "";
+}
+
 function onChange() {  
     newtext = myinput.value;  
+    //keeps the same formatting
     newtext = "<strong>" + newtext + "</strong>";
     otheritem3.innerHTML = newtext;  
 }
