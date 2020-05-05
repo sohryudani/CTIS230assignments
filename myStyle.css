@@ -53,6 +53,20 @@ table {
     margin-right:60px;
 }
 
+button {
+    color:white;
+    background-color:darkslateblue;
+    margin-left:60px;
+    margin-bottom:1.8em;
+}
+
+input {
+    color:white;
+    background-color:darkslateblue;
+    margin-left:60px;
+    margin-bottom:1.8em;
+}
+
 table.infoBox {
     width:250px;
     text-align:left;
@@ -69,7 +83,7 @@ ul {
     margin-right:40px;
 }
 
-ul#itemList {
+ul#firsttest {
     font-style: italic;
     font-size:1.25em;
     margin-bottom:1.5em;
