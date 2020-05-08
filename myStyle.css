@@ -159,6 +159,12 @@ a:hover {
     }
 }
 
+@media (max-width: 400px) {
+    h1, h2 {
+        font-size:1.25em;
+    }
+}
+
 @media screen and (orientation: portrait) {
     p {
         font-size:1.25em;
