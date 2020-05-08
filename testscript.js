@@ -7,6 +7,7 @@ otheritem = document.getElementById("fluteofages");
 otheritem2 = document.getElementById("silvereye");
 otheritem3 = document.getElementById("diddykong");
 textentry = document.getElementById("myinput");  
+theImage = document.getElementById("luigiImg");
 
 //Adds an event listener for myitem that runs the function onClick() whenever the object is clicked by the user
 myitem.addEventListener("click", onClick);
@@ -15,6 +16,7 @@ thebutton.addEventListener("click", onButtonClick);
 thebutton2.addEventListener("click", onButtonClick2);
 thebutton3.addEventListener("click", onButtonClick3);
 textentry.addEventListener("change", onChange);
+theImage.addEventListener("click", imgResize);
 
 //Is run whenever myitem is clicked
 function onClick() {  
@@ -49,4 +51,15 @@ function onChange() {
     //keeps the same formatting
     newtext = "<strong>" + newtext + "</strong>";
     otheritem3.innerHTML = newtext;  
+}
+
+function imgResize() {
+    if (theImage.style.width == "300px")  {
+        theImage.style.width = "";
+        theImage.setAttribute("title", "Click to Enlarge");
+    }
+    else {
+        theImage.style.width = "300px";
+        theImage.setAttribute("title", "Click to Shrink");
+    }
 }
